@@ -10,3 +10,11 @@ Release a component using the Maven Release Plugin
 	</configuration>
 </plugin>
 ```
+
+## Jenkins
+
+Use Jenkins for build automation. Including the `M2 Release Plugin`.
+
+```bash
+docker run -p 8080:8080 -p 50000:50000 jenkins/jenkins:lts
+```
