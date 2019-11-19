@@ -6,7 +6,7 @@ Release a component using the Maven Release Plugin
 	<groupId>org.apache.maven.plugins</groupId>
 	<artifactId>maven-release-plugin</artifactId>
 	<configuration>
-		<tagNameFormat>v@{project.version}</tagNameFormat>
+		<tagNameFormat>@{project.artifactId}-@{project.version}</tagNameFormat>
 	</configuration>
 </plugin>
 ```
